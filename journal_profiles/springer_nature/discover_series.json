@@ -1,0 +1,93 @@
+{
+  "$schema": "https://hdbs.academic/schemas/journal_profile_v2.json",
+  "journal_id": "discover_series",
+  "series_name": "Springer Nature Discover Journals Series",
+  "publisher": "Springer Nature",
+  "official_guidelines_url": "https://link.springer.com/brands/discover/for-reviewers",
+  "editorial_policies_url": "https://link.springer.com/brands/discover/policies",
+  
+  "applicable_journals": [
+    "Discover Computing",
+    "Discover Artificial Intelligence",
+    "Discover Data",
+    "Discover Applied Sciences",
+    "Discover Electronics",
+    "Discover Health Systems",
+    "Discover Oncology",
+    "Discover Sustainability"
+  ],
+
+  "editorial_ethos": {
+    "philosophy": "Inclusive Publishing / Sound Science / Validated Research",
+    "remit": "To ensure there is a home for all validated research. All valid research has a contribution to make.",
+    "evaluate_novelty": false,
+    "evaluate_subjective_impact": false,
+    "evaluate_significance": false,
+    "core_directive_for_referees": "Referees are explicitly asked NOT to assess the significance, perceived impact, or novelty of the research. Focus exclusively on ensuring results are sound and accurately reported."
+  },
+
+  "ai_policy": {
+    "reviewers_may_upload_manuscript_content_to_ai": false,
+    "own_prose_polish_allowed": true,
+    "declaration_required_for_own_prose_polish": true,
+    "confidentiality_rule": "Handling editors and reviewers must treat the review process as strictly confidential. Manuscripts and extracted information must NOT be uploaded into generative AI tools.",
+    "source_url": "https://link.springer.com/brands/discover/for-reviewers"
+  },
+
+  "author_ai_policy": {
+    "usage_allowed": true,
+    "authorship_allowed": false,
+    "disclosure_required": true,
+    "disclosure_section": "Methods / Declarations"
+  },
+
+  "supported_article_types": {
+    "Research": "Standard original research focused on methodological validity and reproducibility.",
+    "Data Notes": "Concise descriptions of sound datasets to increase reuse. Reviewers must NOT ask for extensive follow-up experiments or confirmation of hypotheses; in-depth analyses should be removed.",
+    "Registered Reports": "Two-stage review: Stage 1 (research question, hypotheses, power analysis, outcome-neutral tests) -> In Principle Acceptance (IPA); Stage 2 (adherence to pre-registered plan, post hoc analysis justification).",
+    "Review Articles": "Critical accounts and surveys providing new insights, not just a summary of what has been published; clear inclusion/exclusion methodology."
+  },
+
+  "core_review_criteria": [
+    {
+      "criterion_id": "DISC_01_SUITABILITY",
+      "name": "Scope & Article Type Check",
+      "description": "Ensure manuscript fits journal remit and conforms to the rules of its specific article type."
+    },
+    {
+      "criterion_id": "DISC_02_VALIDITY",
+      "name": "Methodological Validity",
+      "description": "Determine if manuscript has fundamental flaws that prohibit publication. Reject only if fundamentally flawed beyond what can be reasonably addressed in revision."
+    },
+    {
+      "criterion_id": "DISC_03_DATA_AND_REPRODUCIBILITY",
+      "name": "Data Transparency & Supplementary Review",
+      "description": "Review all extended data and supplementary info. Verify methods and processing steps are sufficiently detailed for exact reproduction."
+    },
+    {
+      "criterion_id": "DISC_04_STATISTICS_AND_UNCERTAINTIES",
+      "name": "Statistical Rigor & Error Bars",
+      "description": "All error bars must be defined in figure legends. Evaluate appropriateness of statistical tests, p-values, and treatment of uncertainties."
+    },
+    {
+      "criterion_id": "DISC_05_CONCLUSIONS_OVERCLAIMING",
+      "name": "Robust Conclusions & Overclaiming Avoidance",
+      "description": "If conclusions are overstated compared to data, require authors to define explicit limitations so the text reports exactly what data show."
+    },
+    {
+      "criterion_id": "DISC_06_CITATION_ETHICS",
+      "name": "Appropriate Literature & No Reviewer-Coerced Citations",
+      "description": "Check literature coverage. Suggest sections or topics needing improvement, NOT specific self-citations. Coerced citations are strictly penalized."
+    },
+    {
+      "criterion_id": "DISC_07_ETHICAL_GUIDELINES",
+      "name": "SAGER Guidelines & Research Misconduct",
+      "description": "Check Sex and Gender in Research (SAGER) guidelines. Alert editor confidentially of any plagiarism or image manipulation concerns."
+    }
+  ],
+
+  "decision_framework": {
+    "reject_criteria": "Fundamental flaws in methodology, invalid data interpretation, unfixable fatal errors beyond reasonable revision scope.",
+    "revision_criteria": "Sound research with essential revisions: overclaiming tone adjustment, explicit limitation statements, statistical clarification, supplementary data transparency."
+  }
+}
