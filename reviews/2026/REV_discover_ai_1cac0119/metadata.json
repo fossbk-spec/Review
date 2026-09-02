@@ -1,0 +1,18 @@
+{
+  "review_id": "REV_discover_ai_1cac0119",
+  "journal_id": "discover_ai",
+  "journal_name": "Discover Artificial Intelligence",
+  "publisher": "Springer Nature",
+  "editorial_model": "Sound Science / Technical Validity",
+  "manuscript_id": "1cac0119-f585-45d1-87aa-65c7fecddf40",
+  "submission_round": "Revised Submission (Post Minor Revision)",
+  "article_type": "Research Article",
+  "title": "Learning Analytics for Detecting Digital Information Overload Among Postgraduate Students Using Machine Learning",
+  "review_date": "2026-09-02",
+  "recommendation": "Minor Revision (Essential Clarifications)",
+  "compliance_check": {
+    "ai_policy_checked": true,
+    "manuscript_uploaded_to_cloud_ai": false,
+    "humanize_checklist_applied": true
+  }
+}
