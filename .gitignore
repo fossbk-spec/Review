@@ -5,3 +5,7 @@ reviews/**/anonymized_extract.md
 .venv/
 .env
 __pycache__/
+
+# Microsoft Word lock files
+~$*
+
