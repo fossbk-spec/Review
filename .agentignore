@@ -1,0 +1,9 @@
+# CHẶN AGENT ĐỌC BẢN THẢO THÔ (BẢO VỆ TOKEN & BÍ MẬT PII)
+manuscripts/raw/
+guidelines_raw/
+*.pdf
+*.docx
+*.pptx
+.venv/
+.git/
+__pycache__/

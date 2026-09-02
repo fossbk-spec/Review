@@ -1,0 +1,12 @@
+{
+  "journal_id": "discover_computing",
+  "journal_name": "Discover Computing",
+  "publisher": "Springer Nature",
+  "editorial_model": "Sound Science / Technical Validity",
+  "ai_policy": {
+    "reviewers_may_upload_manuscript_content_to_ai": false,
+    "own_prose_polish_allowed": true,
+    "declaration_required_for_own_prose_polish": true,
+    "source_url": "https://link.springer.com/brands/discover/policies"
+  }
+}

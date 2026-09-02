@@ -1,0 +1,7 @@
+# BẢO MẬT BẢN THẢO: TUYỆT ĐỐI KHÔNG PUSH LÊN GITHUB
+manuscripts/raw/
+manuscripts/anonymized/
+reviews/**/anonymized_extract.md
+.venv/
+.env
+__pycache__/
