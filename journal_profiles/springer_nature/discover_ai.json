@@ -1,0 +1,13 @@
+{
+  "journal_id": "discover_ai",
+  "journal_name": "Discover Artificial Intelligence",
+  "publisher": "Springer Nature",
+  "editorial_model": "Sound Science / Technical Validity",
+  "ai_policy": {
+    "reviewers_may_upload_manuscript_content_to_ai": false,
+    "own_prose_polish_allowed": true,
+    "declaration_required_for_own_prose_polish": true,
+    "source_url": "https://link.springer.com/brands/discover/policies",
+    "verification_note": "Ho so bi thieu khi review REV_discover_ai_1cac0119 duoc hoan tat (metadata.json ghi ai_policy_checked=true nhung khong co file nay trong repo). Khoi phuc lai bang cach dung chung source_url voi discover_computing.json, dua tren checklists/CHECKLIST_SPRINGER_DISCOVER.md (da cong bo trong repo tu truoc) noi ro chinh sach/checklist nay 'Ap dung cho: Discover Computing, Discover Artificial Intelligence, Discover Data, Discover Applied Sciences...'. CHUA the tu fetch lai URL nay de xac minh doc lap trong phien lam viec nay (link.springer.com bi chan boi egress proxy cua moi truong). Khuyen nghi: mo lai source_url thu cong 1 lan de xac nhan noi dung chinh sach hien tai truoc khi dung ho so nay cho mot luot review moi."
+  }
+}

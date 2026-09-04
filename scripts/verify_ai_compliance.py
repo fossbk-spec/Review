@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-verify_ai_compliance.py â€” Doc journal_profiles/<id>.json va CHAN moi hanh dong
+verify_ai_compliance.py — Doc journal_profiles/<id>.json va CHAN moi hanh dong
 dua noi dung ban thao vao AI neu chinh sach tap chi khong cho phep.
 
 Mac dinh AN TOAN: neu thieu field ai_policy hoac thieu source_url, COI NHU
@@ -35,7 +35,7 @@ def verify(journal_id: str, action: str, profiles_dir: Path) -> int:
         print("[-] FAIL-SAFE: chan hanh dong nay. Tao ho so truoc (xem 02-ho-so-tham-dinh-so.md).")
         return 1
 
-    profile = json.loads(profile_path.read_text(encoding="utf-8-sig"))
+    profile = json.loads(profile_path.read_text(encoding="utf-8"))
     ai_policy = profile.get("ai_policy")
 
     if not ai_policy:
@@ -44,7 +44,7 @@ def verify(journal_id: str, action: str, profiles_dir: Path) -> int:
         return 1
 
     source_url = ai_policy.get("source_url", "")
-    if not source_url or "báº¯t buá»™c Ä‘iá»n" in source_url or "TODO" in source_url.upper():
+    if not source_url or "bắt buộc điền" in source_url or "TODO" in source_url.upper():
         print(f"[-] Ho so '{journal_id}' chua co source_url that (chinh sach chua duoc xac minh).")
         print("[-] FAIL-SAFE: chan cho toi khi dien dung URL chinh sach da doc truc tiep.")
         return 1
